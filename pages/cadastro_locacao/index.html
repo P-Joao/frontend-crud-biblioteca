@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Locação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script_locacao.js" defer></script>
+</head>
+<body>
+    <header><a href="/">📚 Sistema de Cadastro</a></header>
+    <div class="container">
+        <h2>Cadastro de Locação</h2>
+        <form id="locacaoForm">
+            <label for="livro">ID do Livro:</label>
+            <input type="text" id="livro" name="livro" required>
+            
+            <label for="cliente">ID do Cliente:</label>
+            <input type="text" id="cliente" name="cliente" required>
+            
+            <label for="funcionario">ID do Funcionário:</label>
+            <input type="text" id="funcionario" name="funcionario" required>
+            
+            <label for="data">Data da Locação:</label>
+            <input type="date" id="data" name="data" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
